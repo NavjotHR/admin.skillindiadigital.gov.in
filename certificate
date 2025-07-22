@@ -1,105 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Document Verification</title>
-<style>
-  body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background: #f7f9fc;
-    margin: 0;
-    padding: 40px 0;
-    display: flex;
-    justify-content: center;
-  }
-  .container {
-    background: white;
-    box-shadow: 0 2px 10px rgb(0 0 0 / 0.1);
-    border-radius: 6px;
-    width: 420px;
-    padding: 25px 30px;
-  }
-  h2 {
-    text-align: center;
-    color: #2a7ae2;
-    margin-bottom: 20px;
-  }
-  .info-row {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
-    border-bottom: 1px solid #eaeaea;
-  }
-  .info-row:last-child {
-    border-bottom: none;
-  }
-  .label {
-    font-weight: 600;
-    color: #444;
-  }
-  .value {
-    color: #222;
-    max-width: 60%;
-    text-align: right;
-    word-wrap: break-word;
-  }
-  .result {
-    margin-top: 30px;
-    font-weight: 700;
-    font-size: 1.1em;
-    text-align: center;
-    color: green;
-  }
-  .footer {
-    margin-top: 40px;
-    font-size: 0.85em;
-    color: #999;
-    text-align: center;
-  }
-</style>
+  <meta charset="UTF-8">
+  <title>Certificate Verification</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      padding: 40px;
+    }
+    .container {
+      background-color: #fff;
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #0073aa;
+    }
+    .info {
+      margin: 20px 0;
+    }
+    .info label {
+      font-weight: bold;
+      display: inline-block;
+      width: 160px;
+    }
+    .qr {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .qr img {
+      width: 120px;
+      height: 120px;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-    <h2>Document Verification</h2>
-    <div class="info-row">
-      <div class="label">Candidate Name</div>
-      <div class="value">Navjot</div>
-    </div>
-    <div class="info-row">
-      <div class="label">Candidate ID</div>
-      <div class="value">CAN_024966735</div>
-    </div>
-    <div class="info-row">
-      <div class="label">Sector Name</div>
-      <div class="value">Logistics</div>
-    </div>
-    <div class="info-row">
-      <div class="label">QP Name</div>
-      <div class="value">Inventory Clerk</div>
-    </div>
-    <div class="info-row">
-      <div class="label">QP Code</div>
-      <div class="value">LSC/Q2108</div>
-    </div>
-    <div class="info-row">
-      <div class="label">Result</div>
-      <div class="value">PASS</div>
-    </div>
-    <div class="info-row">
-      <div class="label">Document</div>
-      <div class="value">Certificate</div>
-    </div>
-    <div class="info-row">
-      <div class="label">Issuance Date</div>
-      <div class="value">19/04/2019</div>
-    </div>
+    <h2>Certificate Verification</h2>
+    <div class="info"><label>Candidate Name:</label> Navjot</div>
+    <div class="info"><label>Candidate ID:</label> CAN_024966735</div>
+    <div class="info"><label>Sector Name:</label> Logistics</div>
+    <div class="info"><label>QP Name:</label> Inventory Clerk</div>
+    <div class="info"><label>QP Code:</label> LSC/Q2108</div>
+    <div class="info"><label>Result:</label> PASS</div>
+    <div class="info"><label>Document:</label> Certificate</div>
+    <div class="info"><label>Issuance Date:</label> 19/02/2019</div>
 
-    <div class="result">Verification Successful</div>
-
-    <div class="footer">
-      Powered by Skill India Digital
-    </div>
   </div>
 </body>
 </html>
